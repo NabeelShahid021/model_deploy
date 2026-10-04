@@ -20,7 +20,7 @@ class InputData(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "ML Model API is running"
+        "message": "model deployment ready"
     }
 
 
